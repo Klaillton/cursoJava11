@@ -15,10 +15,6 @@ public class SalariedReferences implements GetList<ArrayList<SalariedEmployees>>
            new SalariedEmployees("Jose", "Simao", "123456", LocalDate.of(1989,6,18), 600.0)
     ));
 
-    /*public ArrayList<SalariedEmployees> gettList() {
-        return tList;
-    }*/
-
     @Override
     public ArrayList<SalariedEmployees> getList() {
         return tList;
